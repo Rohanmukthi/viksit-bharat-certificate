@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+/* Input Styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Certificate Container */
+#certificate-container {
+    position: relative;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.bg {
+    width: 100%;
+}
+
+/* Name Styling — Professional Look */
+#nameField {
+    position: absolute;
+    top: 330px;          /* Adjust if slightly off */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    color: black;
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+    padding: 5px 30px;
+}
